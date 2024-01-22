@@ -22,5 +22,7 @@ public class Player : MonoBehaviour
         direction.z = Input.GetAxisRaw("Vertical");
 
         rigidbody.velocity = direction.normalized * moveSpeed;
+
+
     }
 }
